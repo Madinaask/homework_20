@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: madina-ecommerce-api
+    runtime: node
+    plan: free
+    region: frankfurt
+    repo: https://github.com/Madinaask/homework_20
+    branch: main
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_EXPIRES_IN
+        value: 7d
+      - key: MONGO_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: ADMIN_EMAIL
+        sync: false
