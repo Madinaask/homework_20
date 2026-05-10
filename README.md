@@ -2,6 +2,9 @@
 
 Индивидуальный проект — REST API интернет-магазина (Node.js + Express + MongoDB).
 
+Деплой: https://madina-ecommerce-api.onrender.com
+Swagger: https://madina-ecommerce-api.onrender.com/api/docs
+
 ## Запуск
 
 ```bash
